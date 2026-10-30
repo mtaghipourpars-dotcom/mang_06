@@ -1,0 +1,39 @@
+name: PVPT Demo Browser Smoke Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Validate Agent Skills
+        run: npm run validate:skills
+      - name: Run demo smoke tests
+        run: npm run test:demo
+      - name: Upload browser QA screenshots and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pvpt-demo-browser-qa
+          path: test-results/
+          if-no-files-found: ignore
+          retention-days: 14

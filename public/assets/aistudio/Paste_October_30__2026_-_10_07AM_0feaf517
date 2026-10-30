@@ -1,0 +1,1044 @@
+# MASTER PROMPT — UNIFY MANG_03 AND NEWMODEL1
+## Enterprise Value Protection & Decision Management System
+
+You are acting as a Principal Enterprise Architect, Senior Product Designer, Full-Stack Engineer, Database Architect, and Enterprise Decision-System Specialist.
+
+Your task is to inspect, architecturally integrate, and implement a new unified enterprise web application using the actual source code, documentation, data models, prototypes, and design principles from these two repositories:
+
+SOURCE A — MANG_03
+https://github.com/mtaghipourpars-dotcom/MANG_03
+
+SOURCE B — newmodel1
+https://github.com/mtaghipourpars-dotcom/newmodel1
+
+This is an architectural integration and product reconstruction task.
+
+It is NOT:
+- A simple visual redesign.
+- A copy-and-paste of two applications.
+- A replacement of one repository with the other.
+- A generic ERP application.
+- A generic business dashboard.
+- A project-management application.
+- An AI chatbot.
+- An autonomous management or decision-making system.
+
+The output must be a coherent enterprise application that preserves the strongest capabilities and architectural principles of both projects.
+
+---
+
+# 1. NON-NEGOTIABLE SOURCE INSPECTION
+
+Before modifying anything, inspect BOTH repositories completely.
+
+Do not rely only on README files.
+
+Inspect:
+
+1. All product documentation.
+2. Architecture documents.
+3. Existing UI prototypes and HTML files.
+4. Existing React components and application structure.
+5. Data models and seed data.
+6. Existing workflows and lifecycle definitions.
+7. Decision models and qualification rules.
+8. Existing implementation prompts and master protocols.
+9. Existing visual references and screenshots.
+10. Existing tests, known defects, and implementation limitations.
+
+For MANG_03, pay particular attention to:
+- docs/product/
+- docs/architecture/
+- docs/data/
+- docs/workflows/
+- docs/decision/
+- docs/design/
+- docs/demo/
+- MASTER_PROTOCOL.md
+- APP_ARCHITECTURE_AND_DATA.md
+- SCREEN_REFERENCE_CONTRACT.md
+- ACCEPTANCE_GATES.md
+- IMPLEMENTATION_SEQUENCE.md
+- PROMPT_PACK.md
+
+For newmodel1, pay particular attention to:
+- docs/01_PRODUCT/
+- docs/02_UI/
+- docs/03_ARCHITECTURE/
+- docs/04_DATA/
+- docs/06_AI_STUDIO/
+- demo/
+- .agents/skills/
+- MASTER_PROTOCOL.md
+- APP_ARCHITECTURE_AND_DATA.md
+- SCREEN_REFERENCE_CONTRACT.md
+- ACCEPTANCE_GATES.md
+- IMPLEMENTATION_SEQUENCE.md
+- PROMPT_PACK.md
+
+The lists above are inspection targets, not assumptions that every file exists. Discover the actual repository structure first.
+
+If both repositories contain implementation protocols, identify conflicts and consolidate them into one consistent implementation contract.
+
+Do not discard a documented requirement simply because it is not implemented in the current prototype.
+
+Distinguish clearly between:
+- Implemented functionality.
+- Documented architecture.
+- Prototype-only functionality.
+- Future-version requirements.
+- Unresolved decisions.
+- Missing implementation.
+
+Never claim that a capability exists merely because documentation describes it.
+
+Produce an internal source-to-target mapping before implementation.
+
+---
+
+# 2. PRODUCT VISION
+
+Build one unified product:
+
+ENTERPRISE VALUE PROTECTION & DECISION MANAGEMENT SYSTEM
+
+The system helps enterprise management understand:
+
+- Which products and projects are strategically important.
+- Which commitments and values are exposed to risk.
+- Which Issues threaten or enable those commitments.
+- Which Solution Candidates can address those Issues.
+- What resources and constraints affect each alternative.
+- Which decisions require management attention.
+- What actions follow from authorized decisions.
+- Whether the actions produced the intended outcomes.
+- What the organization should learn from actual results.
+
+The application must connect enterprise context to operational issues and managerial decisions.
+
+The central operating chain is:
+
+PRODUCT PORTFOLIO
+→ PRODUCT
+→ PROJECT
+→ PROJECT STATUS
+→ RISK / DEVIATION
+→ ISSUE
+→ IMPACTED COMMITMENTS
+→ VALUE AT RISK
+→ SOLUTION CANDIDATES
+→ FEASIBILITY
+→ DECISION PRIORITY
+→ HUMAN DECISION
+→ ACTION
+→ EXECUTION
+→ VERIFIED OUTCOME
+→ PROTECTED VALUE
+→ ORGANIZATIONAL LEARNING
+
+This chain is the central information architecture of the unified application.
+
+Do not implement these as disconnected modules.
+
+They must share the same underlying entities and relationships.
+
+---
+
+# 3. SOURCE OWNERSHIP AND NAVIGATION
+
+The final application must have exactly these primary navigation areas:
+
+1. HOME — source: newmodel1
+2. PROJECTS — source: newmodel1
+3. PRODUCTS — source: newmodel1
+4. VALUE MAP — source: newmodel1
+5. CHALLENGES / ISSUES — source: MANG_03
+6. SOLUTIONS — source: MANG_03
+7. KNOWLEDGE & LEARNING — source: MANG_03
+8. SETTINGS — source: newmodel1
+
+Use the existing visual language and established navigation conventions from the source repositories wherever possible.
+
+Do not create duplicate navigation entries for the same concept.
+
+Do not create a second application shell for MANG_03 inside newmodel1.
+
+The final user must experience ONE application, ONE navigation system, ONE shared data model, and ONE consistent design system.
+
+---
+
+# 4. HOME — NEWMODEL1 EXECUTIVE EXPERIENCE
+
+The Home page must preserve the executive purpose and information architecture documented in newmodel1.
+
+It is the executive entry point, not a generic dashboard.
+
+The CEO must quickly understand:
+
+1. Which enterprise value is at risk?
+2. Which products and projects are affected?
+3. Why is the value exposed?
+4. What is the impact chain?
+5. What is the intervention window?
+6. Which Issues require attention?
+7. Which Solutions are available?
+8. Which decisions require executive intervention?
+9. What happened after previous decisions?
+
+Preserve the documented Home components:
+
+- Product Portfolio.
+- Latest Product Status.
+- Key Projects.
+- Critical / High Risk / Attention / Healthy classifications.
+- Projects Needing Attention.
+- Project Value & Risk Map.
+- Value at Risk.
+- Value at Risk Trend.
+- Macro Executive Indicators.
+- Delivery.
+- Margin.
+- Capacity.
+- Liquidity.
+- Latest Material Developments.
+- Last Effective Intervention Opportunities.
+- Executive Decisions Required.
+
+The Executive Decision Brief must remain a central element of the Home experience.
+
+Every Decision Brief must be linked to its underlying Issue, affected project/product, evidence, candidate solutions, decision status, and intervention context.
+
+IMPORTANT:
+
+Do not invent:
+- Project names.
+- Project progress.
+- Financial exposure.
+- Project margins.
+- Receivables.
+- Supplier delays.
+- Contractual status.
+- Manufacturing capacity.
+- Executive decisions.
+- Value at Risk.
+- Protected Value.
+- Intervention deadlines.
+
+Use actual verified source data where available.
+
+Otherwise display explicit states such as:
+
+DATA REQUIRED
+NOT YET QUANTIFIED
+INSUFFICIENT HISTORY
+INTERNAL SOURCE REQUIRED
+UNKNOWN
+
+Never convert missing information into zero, healthy, feasible, or low risk.
+
+Preserve the distinction between:
+- Value at Risk.
+- Potential Preservation.
+- Actual Loss.
+- Avoided Loss.
+- Preserved Margin.
+- Preserved Cash.
+- Commitment Preserved.
+
+Protected Value is only an observed outcome after sufficient evidence exists. Never display expected value preservation as achieved value.
+
+Last Responsible Moment must be UNKNOWN if supporting evidence is insufficient.
+
+---
+
+# 5. PROJECTS — NEWMODEL1
+
+Projects must be the enterprise commitment-bearing objects.
+
+Preserve and implement the documented project model.
+
+A Project must support relationships with:
+
+- Product.
+- Product Portfolio.
+- Contractual Commitments.
+- Milestones.
+- Project Status.
+- Risks and Deviations.
+- Issues.
+- Solution Candidates.
+- Decisions.
+- Actions.
+- Resource Constraints.
+- Financial and Cash-Flow Context.
+- Outcomes.
+
+Project detail pages must provide navigation to the relevant Issues and Solutions.
+
+An Issue must not be treated as a separate record disconnected from its affected projects.
+
+A project can have multiple Issues.
+
+An Issue can affect multiple projects.
+
+The relationship must be stored explicitly.
+
+Do not assume that every operational deviation creates a material enterprise Issue.
+
+Only material and decision-relevant Issues should enter the governed Issue process.
+
+---
+
+# 6. PRODUCTS — NEWMODEL1
+
+Preserve the Product Portfolio and Product Object concepts.
+
+Products must support:
+
+- Product family.
+- Product definition.
+- Product specifications where verified.
+- Product imagery where available.
+- Related projects.
+- Product status.
+- Product-related risks.
+- Product-related Issues.
+- Product commitments.
+- Product value exposure.
+
+The Product model must remain separate from the Project model.
+
+A product can be linked to multiple project instances.
+
+Do not infer project progress, financial performance, or operational health from public product catalogue information.
+
+Preserve the official PARS product-data boundary documented in newmodel1.
+
+---
+
+# 7. VALUE MAP — NEWMODEL1
+
+The Value Map is a core enterprise view.
+
+It must represent the chain of impact and exposure between:
+
+Product
+→ Project
+→ Risk / Deviation
+→ Issue
+→ Commitment
+→ Cash / Collection
+→ Value at Risk
+→ Intervention
+→ Decision
+→ Outcome
+
+The Value Map must not be a decorative visualization.
+
+It must be driven by persisted, traceable relationships.
+
+Every displayed relationship must be distinguishable as:
+
+- Confirmed.
+- Assessed.
+- Hypothesized.
+- Unknown.
+- Rejected.
+- Not yet validated.
+
+A component problem does not automatically prove a project delay or financial loss.
+
+Impact propagation must require contextual evidence and appropriate validation.
+
+The user must be able to navigate from a Value Map node to the underlying Project, Issue, Solution, evidence, and decision records.
+
+Do not claim causal relationships merely because two records are connected.
+
+---
+
+# 8. CHALLENGES / ISSUES — MANG_03
+
+This section must preserve the MANG_03 Issue architecture.
+
+Do not reduce Issues to generic project risks, tickets, or task records.
+
+Implement the following distinct concepts:
+
+A. Issue Intake
+B. Issue Qualification
+C. Formal Issue Case
+D. Issue–Solution Network
+E. Impact Assessment
+F. Issue Review
+G. Decision and Escalation
+H. Action Tracking
+I. Outcome and Resolution
+
+An initial submission is not automatically a formal Issue.
+
+Implement a distinct Qualification Gate with the documented statuses:
+
+- Ready.
+- Information Needed.
+- Duplicate.
+- Out of Scope.
+- Not Sure / Other.
+
+Preserve the original submitted information.
+
+Do not silently delete, merge, or rewrite an intake.
+
+A qualified Issue enters the formal Issue–Solution process.
+
+A duplicate must retain a traceable link to the relevant existing record.
+
+Information Needed must retain the reason and missing information.
+
+Out of Scope must retain its disposition rationale.
+
+Do not silently discard an Issue because its classification is uncertain.
+
+The system must support the MANG_03 principle that Issue qualification, urgency, priority, feasibility, and authority are separate concepts.
+
+The initial Issue Intake must not require the submitter to calculate financial impact.
+
+Financial and enterprise-level impact assessment belongs in the subsequent authorized managerial review.
+
+Unknown and Not Assessed must remain explicit states.
+
+---
+
+# 9. SOLUTIONS — MANG_03
+
+Preserve the complete MANG_03 Solution model.
+
+The system must distinguish:
+
+1. Reusable Solution Type.
+2. Case-specific Solution Candidate.
+3. Candidate Assessment.
+4. Candidate Feasibility.
+5. Candidate Priority.
+6. Candidate Decision.
+7. Candidate Execution.
+8. Candidate Outcome.
+
+A reusable Solution Type is not the same as a case-specific Solution Candidate.
+
+A Solution Candidate belongs to an Issue context.
+
+The same Solution Type may produce different case-specific candidates under different conditions.
+
+The same candidate must be capable of addressing multiple related Issues where the architecture supports it.
+
+The Issue–Solution relationship is MANY-TO-MANY, CONDITIONAL, and EXTENSIBLE.
+
+Do not implement a fixed linear Issue → Solution structure.
+
+Do not force a misleading Solution Type when no suitable catalogue entry exists.
+
+Preserve the documented MANG_03 MVP boundary around reusable catalogue authoring. Do not enable user-created reusable catalogue definitions simply because an interface button is convenient.
+
+A case-specific Solution Candidate must still be recordable within the supported MVP rules.
+
+Preserve the Solution assessment principles:
+
+- Feasibility is separate from priority.
+- Hard constraints are separate from weighted preferences.
+- Financial impact is separate from profitability and cash-flow timing.
+- A candidate ranking is not an authorization to decide.
+- A selected candidate is not proof of success.
+- A lower-level decision must not hide alternatives from higher-level authorized decision-makers.
+
+Every candidate must retain its assumptions, evidence, conditions, constraints, assessments, and version history.
+
+---
+
+# 10. KEY RESOURCE ALLOCATION
+
+Preserve the first-principles MANG_03 concept:
+
+The system is designed to support allocation of scarce KEY RESOURCES, not to create an exhaustive inventory of every organizational resource.
+
+Examples include:
+
+Financial:
+- Available cash.
+- Cash-flow timing.
+- Due obligations.
+- Incremental cash requirements.
+- Working-capital exposure.
+- Margin at risk.
+
+Operational:
+- Constrained machine capacity.
+- Critical components.
+- Scarce suppliers.
+- Specialist skills.
+- Time-critical engineering and quality approvals.
+
+Commitment-bearing:
+- Delivery capacity.
+- Contractual milestones.
+- Customer obligations.
+- Business continuity.
+
+Effectiveness and Efficiency must remain separate dimensions.
+
+Apply hard safety, legal, technical, authority, and liquidity constraints before comparing feasible alternatives.
+
+Do not collapse all dimensions into one opaque score.
+
+Preserve unknown values as unknown.
+
+Do not treat ordinal 1–5 ratings as monetary values.
+
+Use only documented, versioned assessment rules and profiles. Do not invent scoring formulas.
+
+---
+
+# 11. DECISION AND AUTHORITY MODEL
+
+Preserve the MANG_03 three interaction layers:
+
+Layer 1 — Authorized Issue Submitters.
+Layer 2 — Manager Review.
+Layer 3 — Senior Management / CEO.
+
+These are authority and interaction layers, not a mandatory linear route for every Issue.
+
+The system must support configurable escalation paths, including justified direct escalation.
+
+Managers can decide within their delegated authority.
+
+Cases requiring higher-level authority must be escalated.
+
+The system must record:
+- Originating user and organizational context.
+- Current responsible owner.
+- Reviewing manager.
+- Escalation trigger.
+- Escalation reason.
+- Evidence supporting escalation.
+- Decision authority.
+- Decision-maker.
+- Decision rationale.
+- Decision timestamp.
+- Previous and superseding decisions.
+
+Never invent the organization's exact authority matrix or approval thresholds.
+
+Use configurable authority data and clearly identify unresolved configuration requirements.
+
+Decisions remain human decisions.
+
+The system must not autonomously make executive decisions or silently change operational schedules.
+
+A later authorized decision may supersede an earlier one, but the earlier decision and its history must remain preserved.
+
+Do not hide or disable alternatives merely because a lower-level manager selected one candidate.
+
+---
+
+# 12. KNOWLEDGE & LEARNING — MANG_03
+
+This area must implement organizational learning, not merely display historical records.
+
+Preserve the chain:
+
+Decision
+→ Action
+→ Execution
+→ Actual Outcome
+→ Outcome Review
+→ Lesson
+→ Knowledge
+→ Future Decision Context
+
+The system must distinguish:
+
+- Selected solution.
+- Action started.
+- Action completed.
+- Issue resolved.
+- Outcome verified.
+- Value protected.
+- Lesson approved.
+
+Completion of an action is not proof of resolution.
+
+Selection of a solution is not proof of success.
+
+Learning must use observed outcomes, execution evidence, and relevant context.
+
+Where sample size is small or evidence is weak, expose uncertainty.
+
+Do not infer causality from simple correlation.
+
+Preserve:
+- Decision history.
+- Rejected alternatives.
+- Deferred alternatives.
+- Reopening triggers.
+- Actual outcomes.
+- Lessons learned.
+- Rule and profile versions.
+- Knowledge provenance.
+
+---
+
+# 13. CROSS-APPLICATION DATA MODEL
+
+Build ONE coherent shared enterprise model.
+
+At minimum, inspect and implement the logical equivalents of:
+
+ENTERPRISE CONTEXT:
+- ProductPortfolio
+- Product
+- Project
+- ProjectStatus
+- Commitment
+- Milestone
+- ValueExposure
+- Risk / Deviation
+- Resource
+- ResourceConstraint
+
+ISSUE DOMAIN:
+- IssueIntake
+- IssueQualification
+- IssueCase
+- IssueType
+- IssueEvidence
+- IssueImpactAssessment
+
+SOLUTION DOMAIN:
+- SolutionType
+- SolutionCandidate
+- IssueSolutionRelationship
+- CandidateAssessment
+- CandidateFeasibility
+
+DECISION DOMAIN:
+- DecisionProfile
+- DecisionProfileVersion
+- Authority
+- DecisionRecord
+- RejectedAlternative
+- EscalationRecord
+
+EXECUTION DOMAIN:
+- Action
+- ActionAssignmentHistory
+- ProgressObservation
+- ExecutionEvidence
+
+LEARNING DOMAIN:
+- OutcomeReview
+- ProtectedValueEvidence
+- Lesson
+- KnowledgeRelationship
+- AuditEvent
+
+RELATIONSHIP DOMAIN:
+- IssueProjectLink
+- IssueProductLink
+- IssueCommitmentLink
+- IssueResourceLink
+- IssueSolutionLink
+- SolutionIssueLink
+- DecisionIssueLink
+- DecisionProjectLink
+- ActionDecisionLink
+- OutcomeDecisionLink
+
+These are logical entities, not instructions to blindly create duplicate tables.
+
+Inspect the existing models first.
+
+Reuse and extend existing structures where appropriate.
+
+Do not duplicate the same Project, Product, Issue, or Solution record in different sections of the application.
+
+Every entity must have a stable identifier.
+
+Every relationship must have explicit semantics.
+
+Use relational relationships and typed junction records where appropriate. A graph database is not mandatory.
+
+Do not store the complete enterprise network as unvalidated free-form JSON.
+
+Preserve history and provenance.
+
+---
+
+# 14. CROSS-PAGE INTEGRATION REQUIREMENTS
+
+This is one of the most important acceptance requirements.
+
+Every primary section must be connected to the other relevant sections.
+
+Examples:
+
+PROJECT → ISSUES:
+A project detail page must show all related Issues.
+
+ISSUE → PROJECT:
+An Issue detail page must show every affected Project.
+
+ISSUE → PRODUCT:
+An Issue must be capable of linking to one or more affected Products.
+
+ISSUE → SOLUTIONS:
+The Issue page must show all applicable Solution Candidates.
+
+SOLUTION → ISSUES:
+A Solution must show all Issues it addresses.
+
+ISSUE → VALUE MAP:
+The Issue must show its validated and unvalidated impact relationships.
+
+VALUE MAP → ISSUE:
+A Value Map node must open the underlying Issue.
+
+ISSUE → DECISION:
+An Issue must show its decision history.
+
+DECISION → ACTION:
+A decision must show all resulting actions.
+
+ACTION → OUTCOME:
+An action must link to execution evidence and observed results.
+
+OUTCOME → KNOWLEDGE:
+Verified outcomes must be available for learning.
+
+HOME → ALL DOMAINS:
+Executive decision briefs must open the underlying records, not disconnected demonstration screens.
+
+Cross-page navigation must preserve record identity and context.
+
+---
+
+# 15. DATABASE AND PERSISTENCE
+
+Do not leave the final application as a browser-only demonstration.
+
+Inspect the existing backend and persistence arrangements first.
+
+If a working approved database exists, reuse it.
+
+If no approved database exists, propose and implement a suitable persistent architecture compatible with Google AI Studio's execution environment. PostgreSQL is the preferred relational database for a production-oriented implementation, subject to the actual environment and available credentials.
+
+All authoritative application data must be persisted.
+
+This includes:
+- Projects.
+- Products.
+- Issues.
+- Qualifications.
+- Issue–Solution relationships.
+- Solution Candidates.
+- Assessments.
+- Decisions.
+- Escalations.
+- Actions.
+- Outcomes.
+- Lessons.
+- Settings.
+- Audit records.
+
+React state may be used for temporary interface interaction only.
+
+It must never be the authoritative source of persistent business data.
+
+Implement:
+- Database migrations.
+- Referential integrity.
+- Foreign keys.
+- Appropriate uniqueness constraints.
+- Transactional updates.
+- Server-side validation.
+- Error handling.
+- Versioning where needed.
+- Audit history.
+- Concurrency safeguards.
+- Secure authorization checks.
+
+Never claim that a database is connected or provisioned unless it has actually been configured and tested.
+
+Do not substitute localStorage or sessionStorage for persistent business storage.
+
+If the available environment cannot provision persistent storage, explicitly identify the blocker. Do not pretend the persistence requirement has been fulfilled.
+
+---
+
+# 16. MDCRL — INTERNAL ENGINE
+
+Preserve the newmodel1 MDCRL concept.
+
+MDCRL is an internal reasoning and context engine, not a separate product module or chatbot.
+
+Its responsibilities include:
+
+- Decision Context.
+- Integrity.
+- Traceability.
+- Reasoning Reconstruction.
+- Decision Memory.
+- Rule Evaluation.
+- Feasibility Reference.
+- Dependency and Impact Relationships.
+
+MDCRL must explain how an executive decision brief was formed.
+
+It must be possible to trace a displayed conclusion back to:
+- Source records.
+- Evidence.
+- Relationships.
+- Assumptions.
+- Rules.
+- Decision profiles.
+- Version information.
+- Human assessments.
+
+Do not present an AI-generated conclusion as a verified fact.
+
+Do not allow AI to overwrite source evidence or authorized decisions.
+
+AI may assist with classification, summarization, relationship suggestions, and explanations, but controlled business decisions remain subject to human authority.
+
+---
+
+# 17. UI / UX DESIGN
+
+The final application must look and behave like one professional enterprise product.
+
+Do not create two visually unrelated applications.
+
+Use the strongest existing UI patterns from both repositories.
+
+Prioritize:
+- Clear information hierarchy.
+- Executive readability.
+- Dense but understandable enterprise information.
+- Consistent page structure.
+- High-quality tables and detail views.
+- Meaningful status indicators.
+- Clear relationships between records.
+- Fast navigation.
+- Responsive behavior.
+- Consistent typography, spacing, color, and icons.
+
+Use the existing source screenshots as visual references.
+
+Do not arbitrarily redesign the Home page.
+
+Do not introduce new primary navigation sections beyond the eight specified above.
+
+The UI must distinguish:
+- Real data.
+- Demo data.
+- Assumptions.
+- Unknown information.
+- Unverified relationships.
+- Derived analytical values.
+
+Do not use decorative charts with invented numbers.
+
+Every chart must be based on actual persisted or explicitly identified synthetic data.
+
+Use empty states that explain what information is missing.
+
+Do not hide missing data behind attractive but misleading graphics.
+
+---
+
+# 18. LANGUAGE AND LOCALIZATION
+
+The application must support English and Persian.
+
+Persian must support:
+- RTL layout.
+- Correct Persian typography.
+- Correct alignment.
+- Localized labels.
+- Appropriate date and number formatting.
+
+Changing the language must not change canonical identifiers, machine statuses, business logic, or underlying data.
+
+Never overwrite original source narratives when translating.
+
+Preserve bilingual terminology consistently across all pages.
+
+---
+
+# 19. IMPLEMENTATION STRATEGY
+
+Do not attempt an uncontrolled rewrite of the entire application in one step.
+
+Follow this sequence:
+
+PHASE 0 — DISCOVERY
+Inspect both repositories, source files, architecture, visual references, and implementation status.
+
+PHASE 1 — UNIFIED ARCHITECTURE
+Create the consolidated product architecture, shared entity model, relationship model, navigation structure, and source-to-target mapping.
+
+PHASE 2 — APPLICATION SHELL
+Implement the unified navigation, design system, page routing, language support, and shared layout.
+
+PHASE 3 — ENTERPRISE CONTEXT
+Implement Home, Projects, Products, and Value Map using newmodel1 principles.
+
+PHASE 4 — ISSUE AND SOLUTION ENGINE
+Implement Issue Intake, Qualification, Issue Cases, Issue–Solution relationships, Solution Candidates, and assessment.
+
+PHASE 5 — DECISION AND AUTHORITY
+Implement decision profiles, feasibility, human decision records, escalation, and rejected alternatives.
+
+PHASE 6 — EXECUTION AND LEARNING
+Implement Actions, progress evidence, outcomes, knowledge, and learning.
+
+PHASE 7 — PERSISTENCE AND INTEGRATION
+Implement the shared database model, APIs, transactional persistence, authorization, and cross-page relationships.
+
+PHASE 8 — VALIDATION
+Run tests for the complete end-to-end business chain.
+
+Do not claim a phase is complete merely because its screen renders.
+
+---
+
+# 20. REQUIRED END-TO-END ACCEPTANCE SCENARIO
+
+The final application must support this complete scenario:
+
+1. A user opens an existing Project.
+2. The user identifies a material operational deviation.
+3. The user submits an Issue Intake linked to the Project.
+4. The system preserves the original submission and evidence.
+5. The Issue passes through the Qualification Gate.
+6. An authorized manager reviews and qualifies it.
+7. The Issue becomes a formal Issue Case.
+8. The Issue is linked to its affected Product, Project, Commitments, and relevant Resources.
+9. The system displays relevant Solution Types.
+10. Authorized users record case-specific Solution Candidates.
+11. Each Candidate receives its own assessment.
+12. Feasibility is evaluated independently of priority.
+13. Shared-resource constraints and relevant opportunity costs are visible.
+14. Decision Profiles can compare applicable alternatives.
+15. A manager makes a decision within delegated authority or escalates.
+16. Higher-level management can still see and reconsider all applicable alternatives.
+17. The authorized decision creates one or more Actions.
+18. Actions are assigned to responsible owners.
+19. Progress and execution evidence are recorded.
+20. Actual outcomes are independently reviewed.
+21. Value preservation is recorded only when supported by evidence.
+22. Lessons are captured and made available to future decision contexts.
+23. The Home page and Value Map reflect the resulting verified changes.
+
+At every stage, record provenance, identity, timestamps, and relevant history.
+
+---
+
+# 21. TESTING AND FAILURE CONDITIONS
+
+Create tests for:
+
+- Issue Intake persistence.
+- Qualification status transitions.
+- Duplicate handling.
+- Many-to-many Issue–Solution relationships.
+- Conditional relationship handling.
+- Project–Issue navigation.
+- Product–Issue navigation.
+- Value Map traceability.
+- Candidate assessment.
+- Unknown values.
+- Feasibility versus priority.
+- Hard constraints.
+- Decision authority.
+- Escalation.
+- Alternative preservation.
+- Action assignment and reassignment.
+- Outcome verification.
+- Protected Value integrity.
+- Audit history.
+- Cross-page data consistency.
+- Persian RTL.
+- Responsive layout.
+- Database persistence after refresh and re-login.
+- Concurrent updates where applicable.
+
+A test that requires a missing backend, credential, external integration, or real company dataset must be marked BLOCKED or NOT IMPLEMENTED.
+
+Never report an unsupported test as PASS.
+
+Never use fabricated data to make a test appear successful.
+
+---
+
+# 22. FINAL DELIVERY REQUIREMENTS
+
+The final result must include:
+
+1. A unified application.
+2. One consistent navigation system.
+3. One shared enterprise data model.
+4. Integrated Home, Projects, Products, and Value Map.
+5. Integrated Challenges / Issues, Solutions, and Knowledge & Learning.
+6. Unified Settings.
+7. Cross-page navigation and relationships.
+8. Persistent storage where the environment supports it.
+9. Database schema and migrations.
+10. API contracts and implementation.
+11. Test suite and actual test results.
+12. Updated architecture documentation.
+13. A clear implementation status report.
+
+Update existing documentation rather than creating unnecessary duplicate documentation.
+
+The final report must identify:
+- What was reused from MANG_03.
+- What was reused from newmodel1.
+- What was integrated.
+- What was newly implemented.
+- What remains incomplete.
+- What is blocked by missing data, credentials, infrastructure, or unresolved business rules.
+- Which tests were actually executed and their results.
+
+Use only these status labels:
+
+PASS
+FAIL
+PARTIAL
+BLOCKED
+NOT VERIFIED
+
+Do not state that the product is production-ready unless the relevant persistence, security, authorization, integration, and acceptance tests have actually passed.
+
+---
+
+# 23. EXECUTION INSTRUCTION
+
+Start with repository discovery and architectural inspection.
+
+Do not immediately generate a new UI.
+
+Do not simplify or omit documented business concepts to make implementation easier.
+
+Do not replace the MANG_03 decision engine with generic CRUD screens.
+
+Do not replace the newmodel1 executive value-protection experience with a generic issue dashboard.
+
+Do not build disconnected pages.
+
+Do not invent business data, scoring rules, approval thresholds, or causal relationships.
+
+Preserve the strengths of both source projects and integrate them into one coherent enterprise application.
+
+The final product must be operationally connected, architecturally consistent, evidence-based, and visually professional.
+
+**The objective is not to put two projects next to each other. The objective is to make them function as one enterprise value-protection and decision-management system.**
